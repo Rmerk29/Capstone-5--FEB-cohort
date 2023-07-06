@@ -1,4 +1,4 @@
-CWA Group Capstone #5 (Wendy,Simon,Regina,Sammy)
+#CWA Group Capstone #5 (Wendy,Simon,Regina,Sammy)
 
 Capstone #5
 
