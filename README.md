@@ -1,4 +1,4 @@
-#CWA Group Capstone #5 (Rachel ,Wendy ,Simon, Regina, Sammy) (swag coders))
+#CWA Group Capstone #5 (Rachel ,Wendy ,Simon, Regina, Sammy) (swag coders)
 
 Capstone #5
 
