@@ -1,4 +1,4 @@
-# Capstone-5--FEB-cohort
+CWA Group Capstone #5 (Wendy,Simon,Regina,Sammy)
 
 Capstone #5
 
