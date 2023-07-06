@@ -1,4 +1,4 @@
-#CWA Group Capstone #5 (Wendy,Simon,Regina,Sammy)
+#CWA Group Capstone #5 (Racheal,Wendy,Simon,Regina,Sammy)
 
 Capstone #5
 
@@ -13,9 +13,6 @@ Create your own hash generator with BASH.
 Deliverables:
 
 Create a github account and upload all your code.
-
-
-Rachael, Sammy, Regina, and Wendy
 
 Due 07/23/23
 CWA (CyberWarrior)
