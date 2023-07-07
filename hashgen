@@ -1,0 +1,17 @@
+#!/bin/bash
+# Function to generate hash value
+generate_hash() {
+  # Prompt the user for the input string
+  read -p "Enter the string to hash: " input_string
+  # Prompt the user for the input string
+  read -p "Enter the string to hash: " input_string
+  # Generate the MD5 hash
+  md5_hash=$(echo -n "$input_string" | md5sum | awk '{print $1}')
+  # Generate the SHA-256 hash
+  sha256_hash=$(echo -n "$input_string" | sha256sum | awk '{print $1}')
+  # Print the hash values
+  echo "MD5 Hash: $md5_hash"
+  echo "SHA-256 Hash: $sha256_hash"
+}
+# Call the generate_hash function
+generate_hash
