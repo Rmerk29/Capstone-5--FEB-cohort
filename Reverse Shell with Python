@@ -1,4 +1,4 @@
-!/usr/bin/python3 #This is a shebang line which defines the path of the interpreter to use
+#!/usr/bin/python3 #This is a shebang line which defines the path of the interpreter to use
 from os import dup2 #importing libraries and functions
 from subprocess import run #importing libraries and functions
 import socket #importing libraries and functions
